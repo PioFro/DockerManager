@@ -1,9 +1,0 @@
-C:\Users\pfrohlich\Source\Repos\DockerManager\DockerManager\Shared\bin\Debug\netstandard2.1\DockerManager.Shared.deps.json
-C:\Users\pfrohlich\Source\Repos\DockerManager\DockerManager\Shared\bin\Debug\netstandard2.1\DockerManager.Shared.dll
-C:\Users\pfrohlich\Source\Repos\DockerManager\DockerManager\Shared\bin\Debug\netstandard2.1\DockerManager.Shared.pdb
-C:\Users\pfrohlich\Source\Repos\DockerManager\DockerManager\Shared\obj\Debug\netstandard2.1\DockerManager.Shared.csprojAssemblyReference.cache
-C:\Users\pfrohlich\Source\Repos\DockerManager\DockerManager\Shared\obj\Debug\netstandard2.1\DockerManager.Shared.AssemblyInfoInputs.cache
-C:\Users\pfrohlich\Source\Repos\DockerManager\DockerManager\Shared\obj\Debug\netstandard2.1\DockerManager.Shared.AssemblyInfo.cs
-C:\Users\pfrohlich\Source\Repos\DockerManager\DockerManager\Shared\obj\Debug\netstandard2.1\DockerManager.Shared.csproj.CoreCompileInputs.cache
-C:\Users\pfrohlich\Source\Repos\DockerManager\DockerManager\Shared\obj\Debug\netstandard2.1\DockerManager.Shared.dll
-C:\Users\pfrohlich\Source\Repos\DockerManager\DockerManager\Shared\obj\Debug\netstandard2.1\DockerManager.Shared.pdb
