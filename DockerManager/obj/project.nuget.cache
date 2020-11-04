@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SV/c2MMEozg5lLEKuBzLyE4z0dCXsgAhposlXJwAKHSHP2tDapvu6AhFIKXaEtSQGZFWHQKiOeH7OfHWEakxRA==",
+  "dgSpecHash": "T34k1KUdxq7/f1NV8STmgcdUo8/iIPnwRi+A95dOvKJ/HYo4mDWcbQhR+Umm26c0U0qlHpvUCu6IFcz4xVlaTw==",
   "success": true,
-  "projectFilePath": "D:\\Repos\\DockerManager\\DockerManager\\DockerManager.csproj",
+  "projectFilePath": "D:\\Repos\\DockerManagerNew\\DockerManager\\DockerManager\\DockerManager.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\dnsclient\\1.3.1\\dnsclient.1.3.1.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

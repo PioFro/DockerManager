@@ -6534,11 +6534,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repos\\DockerManager\\DockerManager\\DockerManager.csproj",
+      "projectUniqueName": "D:\\Repos\\DockerManagerNew\\DockerManager\\DockerManager\\DockerManager.csproj",
       "projectName": "DockerManager",
-      "projectPath": "D:\\Repos\\DockerManager\\DockerManager\\DockerManager.csproj",
+      "projectPath": "D:\\Repos\\DockerManagerNew\\DockerManager\\DockerManager\\DockerManager.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "D:\\Repos\\DockerManager\\DockerManager\\obj\\",
+      "outputPath": "D:\\Repos\\DockerManagerNew\\DockerManager\\DockerManager\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
