@@ -1,0 +1,42 @@
+﻿@model DockerWebApplication.Models.Docker
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-7">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-12">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class = "col-sm-7">
+            @Html.DisplayNameFor(model => model.LastUsedDate)
+        </dt>
+        <dd class = "col-sm-12">
+            @Html.DisplayFor(model => model.LastUsedDate)
+        </dd>
+        <dt class = "col-sm-7">
+            @Html.DisplayNameFor(model => model.PullName)
+        </dt>
+        <dd class = "col-sm-12">
+            @Html.DisplayFor(model => model.PullName)
+        </dd>
+        <dt class = "col-sm-7">
+            @Html.DisplayNameFor(model => model.Variables)
+        </dt>
+        <dd class = "col-sm-12">
+            @{ Html.RenderPartial("EnvironmentalVariablesList", Model.v);}
+        </dd>
+        <dt class = "col-sm-7">
+            @Html.DisplayNameFor(model => model.Resoures)
+        </dt>
+        <dd class = "col-sm-12">
+            @{Html.RenderPartial("Resource", Model.resources);}
+        </dd>
+        <dt class = "col-sm-7">
+            @Html.DisplayNameFor(model => model.ID)
+        </dt>
+        <dd class = "col-sm-12">
+            @Html.DisplayFor(model => model.ID)
+        </dd>
+    </dl>
+</div>

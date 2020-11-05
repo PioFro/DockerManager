@@ -1,0 +1,16 @@
+﻿@model IEnumerable<DockerWebApplication.Models.Docker>
+
+@{
+    ViewData["Title"] = "Run";
+    Layout = "~/Views/Shared/_Layout_Logged.cshtml";
+}
+
+<h1>Select Docker to run on @ViewBag.Message</h1>
+
+@foreach (var item in Model)
+{
+    <hr style="height:2px;border-width:0;color:gray;background-color:darkblue">
+    Html.RenderPartial("Docker", item);
+    @Html.ActionLink("Run", "RunDocker", new { id = item.ID });
+
+}

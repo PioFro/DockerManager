@@ -1,0 +1,54 @@
+﻿@model IEnumerable<DockerWebApplication.Models.Machine>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout_Logged.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IpAddress)
+            </th>
+            <th>
+                Resources
+            </th>
+            <th>
+                Running dockers
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IpAddressString)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.resources.Count)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.dockers.Count)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.ID })|
+                @Html.ActionLink("Run New", "Run", new { id = item.ID })|
+                @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

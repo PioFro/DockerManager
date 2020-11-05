@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Repos\\DockerManagerNew\\DockerManager\\DockerManager\\DockerManager.csproj": {}
+    "D:\\Repos\\DockerManager\\DockerManager\\DockerManager.csproj": {}
   },
   "projects": {
-    "D:\\Repos\\DockerManagerNew\\DockerManager\\DockerManager\\DockerManager.csproj": {
+    "D:\\Repos\\DockerManager\\DockerManager\\DockerManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repos\\DockerManagerNew\\DockerManager\\DockerManager\\DockerManager.csproj",
+        "projectUniqueName": "D:\\Repos\\DockerManager\\DockerManager\\DockerManager.csproj",
         "projectName": "DockerManager",
-        "projectPath": "D:\\Repos\\DockerManagerNew\\DockerManager\\DockerManager\\DockerManager.csproj",
+        "projectPath": "D:\\Repos\\DockerManager\\DockerManager\\DockerManager.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\Repos\\DockerManagerNew\\DockerManager\\DockerManager\\obj\\",
+        "outputPath": "D:\\Repos\\DockerManager\\DockerManager\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,6 +41,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Docker.DotNet": {
+              "target": "Package",
+              "version": "[3.125.4, )"
+            },
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
               "version": "[3.1.8, )"

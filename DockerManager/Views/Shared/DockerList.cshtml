@@ -1,0 +1,8 @@
+﻿@model IEnumerable<DockerWebApplication.Models.Docker>
+
+@foreach (var item in Model)
+{
+    <hr style="height:2px;border-width:0;color:gray;background-color:darkblue">
+    Html.RenderPartial("Docker", item);
+    @Html.ActionLink("Stop", "Stop", new { id = item.ID });
+}

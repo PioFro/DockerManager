@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using MongoDB.Entities;
 namespace DockerWebApplication.Models
@@ -13,22 +14,30 @@ namespace DockerWebApplication.Models
         public Many<Resource> RequiredResources{ get; set; }
 
         [Ignore]
-        public string Variables { get; set; }
+        public int Variables { get; set; }
+
+        [Ignore]
+        public List<EnvironmentalVariables> v { get; set; }
+
+        [Ignore]
+        public List<Resource> resources { get; set; }
+        [Ignore]
+        public int Resoures { get; set; }
+
         public void SetVariables()
         {
-            string toret = "";
-            var Variables = PossibleVariables.ToList();
-            foreach(EnvironmentalVariables var in Variables)
-            {
-                toret += (var.ToString()+"\n");
-            }
-            this.Variables=toret;
+            Variables = PossibleVariables.Count();
+            Resoures = RequiredResources.Count();
+            v = PossibleVariables.ToList();
+            resources = RequiredResources.ToList();
         }
 
         public Docker()
         {
             this.InitOneToMany(()=>PossibleVariables);
             this.InitOneToMany(()=>RequiredResources);
+            v = new List<EnvironmentalVariables>();
+            resources = new List<Resource>();
         }
 
         public override string ToString()
